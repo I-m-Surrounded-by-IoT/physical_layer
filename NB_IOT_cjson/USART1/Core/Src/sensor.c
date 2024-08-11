@@ -2,6 +2,8 @@
 #include "adc.h"
 #include "OLED.h"
 #include "DS18B20_all.h"
+#include "FreeRTOS.h"
+#include "task.h"
 
 float TDS=0.0,TDS_voltage;
 float TDS_value=0.0,voltage_value;
@@ -103,14 +105,17 @@ void Sensor_Value(void)
     TDS_Value_Conversion();
     TSW_Value_Conversion();
     PH_Value_Conversion();
+	taskENTER_CRITICAL();
     Temperture_Value_Conversion();
+	taskEXIT_CRITICAL();
 }
 
 
 void Sersor_Value_test(void)
 {
    Sensor_Value();
-    //TDS
+    taskENTER_CRITICAL();
+	//TDS
     OLED_ShowString(1, 1, "TDS:");
 	OLED_ShowChar(1,9,'.');
     OLED_ShowNum(1, 5, TDS_value, 4);
@@ -141,6 +146,7 @@ void Sersor_Value_test(void)
     OLED_ShowNum(4,4,temper,3);
     OLED_ShowChar(4,7,'.');
     OLED_ShowNum(4,8,(unsigned long)(temper*10000)%10000,4);
+	taskEXIT_CRITICAL();
 }
 
 

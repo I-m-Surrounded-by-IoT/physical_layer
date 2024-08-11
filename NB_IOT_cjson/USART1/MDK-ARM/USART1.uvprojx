@@ -473,6 +473,21 @@
               <FilePath>..\Core\Src\L298N.c</FilePath>
             </File>
             <File>
+              <FileName>driver_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Core\Src\driver_timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>cJSON_Utils.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Core\Src\cJSON_Utils.c</FilePath>
+            </File>
+            <File>
+              <FileName>unix.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Core\Src\unix.c</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/main.c</FilePath>
@@ -696,16 +711,6 @@
                   </Cads>
                 </FileArmAds>
               </FileOption>
-            </File>
-            <File>
-              <FileName>driver_timer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Core\Src\driver_timer.c</FilePath>
-            </File>
-            <File>
-              <FileName>cJSON_Utils.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Core\Src\cJSON_Utils.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -28,14 +28,16 @@ typedef enum
 	
 AT = 0,
 AT_QSCLK,
+AT_QRST,
 AT_CSCON,
 AT_CEREG,
 AT_CGATT,
 AT_CGPADDR,
 AT_QMTOPEN ,
 AT_QMTCONN,
+AT_QMTSUB, 
+AT_CCLK,
 AT_QMTPUB,
-AT_QMTCLOSE,
 AT_QICLOSE
 
 
@@ -53,6 +55,7 @@ typedef struct
 
 void NB_Init(void);
 void NB_Task(void);
+void NB_Send_Data(void);
 
 extern uint8_t Send_Data_Flag;
 extern QueueHandle_t semphore_handle;

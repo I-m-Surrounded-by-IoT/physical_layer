@@ -3,7 +3,7 @@
 #include "NRF24L01.h"
 #include "delay.h"
 #include "OLED.h"
-
+#include "driver_timer.h"
 uint8_t T_ADD[5] = {0xF0,0xF0,0xF0,0xF0,0xF0};
 uint8_t R_ADD[5] = {0xF0,0xF0,0xF0,0xF0,0xF0};
 
@@ -125,7 +125,7 @@ void Reveive(uint8_t *Buf)
         W_Reg(NRF24L01_CMD_FLUSH_RX,NRF24L01_CMD_NOP);
         //清除状态寄存器
         W_Reg(NRF24L01_CMD_W_REGISTER+NRF24L01_REG_STATUS,Status);
-        Delay_us(150);
+        udelay(150);
     }
 }
 

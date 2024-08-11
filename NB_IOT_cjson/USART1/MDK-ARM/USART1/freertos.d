@@ -1,0 +1,54 @@
+usart1\freertos.o: ../Core/Src/freertos.c
+usart1\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+usart1\freertos.o: D:\Keil MDK\ARM\ARMCC\Bin\..\include\stddef.h
+usart1\freertos.o: D:\Keil MDK\ARM\ARMCC\Bin\..\include\stdint.h
+usart1\freertos.o: ../Core/Inc/FreeRTOSConfig.h
+usart1\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+usart1\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+usart1\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+usart1\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+usart1\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+usart1\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+usart1\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+usart1\freertos.o: ../Core/Inc/main.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+usart1\freertos.o: ../Core/Inc/stm32f1xx_hal_conf.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+usart1\freertos.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+usart1\freertos.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
+usart1\freertos.o: ../Drivers/CMSIS/Include/core_cm3.h
+usart1\freertos.o: ../Drivers/CMSIS/Include/cmsis_version.h
+usart1\freertos.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+usart1\freertos.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+usart1\freertos.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+usart1\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+usart1\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
+usart1\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
+usart1\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
+usart1\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+usart1\freertos.o: ../Core/Inc/OLED.h
+usart1\freertos.o: D:\Keil MDK\ARM\ARMCC\Bin\..\include\stdio.h
+usart1\freertos.o: ../Core/Inc/sensor.h
+usart1\freertos.o: ../Core/Inc/nbiotdriver.h
+usart1\freertos.o: ../Core/Inc/usart.h
+usart1\freertos.o: ../Core/Inc/cjson.h
+usart1\freertos.o: D:\Keil MDK\ARM\ARMCC\Bin\..\include\string.h
+usart1\freertos.o: ../Core/Inc/NRF24L01.h
+usart1\freertos.o: ../Core/Inc/L298N.h

@@ -38,8 +38,8 @@ extern UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN Private defines */
 
-#define USART2_DMA_REC_SIZE 100 
-#define USART2_REC_SIZE 256	
+#define USART2_DMA_REC_SIZE 400 
+#define USART2_REC_SIZE 400	
 	
 	
 typedef struct

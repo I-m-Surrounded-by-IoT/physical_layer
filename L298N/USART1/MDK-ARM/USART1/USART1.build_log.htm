@@ -1,0 +1,185 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.1
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Cortex-M3, 11, LIC=QF82M-XCH2C-HLXCL-0A3TZ-JVCYX-3X1UR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  D:\Keil MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\stm32Cube\HAL_test\水质检测\physical_layer\L298N\USART1\MDK-ARM\USART1.uvprojx
+Project File Date:  07/20/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil MDK\ARM\ARMCC\Bin'
+Build target 'USART1'
+assembling startup_stm32f103xb.s...
+compiling OLED.c...
+compiling LED.c...
+../Core/Inc/led.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/time.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Core\Src\LED.c(38): warning:  #188-D: enumerated type mixed with another type
+          LedOff(i);
+..\Core\Src\LED.c(61): warning:  #188-D: enumerated type mixed with another type
+              LedOn(i);
+..\Core\Src\LED.c(70): warning:  #188-D: enumerated type mixed with another type
+                  LedOff(i);
+..\Core\Src\LED.c: 5 warnings, 0 errors
+compiling time.c...
+../Core/Inc/time.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Core\Src\time.c(19): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\time.c: 2 warnings, 0 errors
+compiling cJSON.c...
+../Core/Inc/cJSON.h(300): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Core\Src\cJSON.c(3143): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\cJSON.c: 2 warnings, 0 errors
+compiling Delay.c...
+compiling DS18B20_all.c...
+../Core/Inc/DS18B20_all.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Core\Src\DS18B20_all.c(95): warning:  #236-D: controlling expression is constant
+      while (DS18B20_DQ_IN&&retry<200)
+..\Core\Src\DS18B20_all.c(106): warning:  #236-D: controlling expression is constant
+      while (!DS18B20_DQ_IN&&retry<240)
+..\Core\Src\DS18B20_all.c: 3 warnings, 0 errors
+compiling nbiotdriver.c...
+../Core/Inc/nbiotdriver.h(59): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/time.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/led.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/pb.h(923): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/pb_encode.h(185): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/pb_decode.h(193): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/sensor.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/cjson.h(300): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Core\Src\nbiotdriver.c(71): warning:  #177-D: variable "interest"  was declared but never referenced
+      cJSON *interest;
+..\Core\Src\nbiotdriver.c(276): warning:  #188-D: enumerated type mixed with another type
+                      ATNextCmdNum = ATCurrentCmdNum+1;
+..\Core\Src\nbiotdriver.c: 10 warnings, 0 errors
+compiling sensor.c...
+../Core/Inc/DS18B20_all.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Core\Src\sensor.c(31): warning:  #940-D: missing return statement at end of non-void function "Temperture_Value_Conversion" 
+  }
+..\Core\Src\sensor.c: 2 warnings, 0 errors
+compiling NRF24L01.c...
+..\Core\Src\NRF24L01.c(158): warning:  #940-D: missing return statement at end of non-void function "Send" 
+  }
+..\Core\Src\NRF24L01.c: 1 warning, 0 errors
+compiling L298N.c...
+compiling main.c...
+../Core/Inc/LED.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/nbiotdriver.h(59): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/cjson.h(300): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/sensor.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/ps.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c(122): warning:  #177-D: variable "count"  was declared but never referenced
+        uint32_t count = 0;
+../Core/Src/main.c(123): warning:  #177-D: variable "i"  was declared but never referenced
+        uint8_t i = 0 ;
+../Core/Src/main.c: 7 warnings, 0 errors
+compiling gpio.c...
+compiling freertos.c...
+../Core/Inc/sensor.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/nbiotdriver.h(59): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/cjson.h(300): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/freertos.c(158): warning:  #177-D: variable "count"  was declared but never referenced
+      uint32_t count = 0;
+../Core/Src/freertos.c: 4 warnings, 0 errors
+compiling adc.c...
+compiling dma.c...
+compiling usart.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_timebase_tim.c...
+compiling driver_timer.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_adc.c...
+compiling stm32f1xx_hal_adc_ex.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_uart.c...
+compiling system_stm32f1xx.c...
+compiling croutine.c...
+compiling event_groups.c...
+compiling list.c...
+compiling queue.c...
+compiling stream_buffer.c...
+compiling tasks.c...
+compiling timers.c...
+compiling cmsis_os2.c...
+compiling heap_4.c...
+compiling port.c...
+linking...
+Program Size: Code=14504 RO-data=328 RW-data=88 ZI-data=3232  
+FromELF: creating hex file...
+"USART1\USART1.axf" - 0 Error(s), 36 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM::CMSIS:CORE:5.5.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\stm32Cube\HAL_test\水质检测\physical_layer\L298N\USART1\MDK-ARM\RTE
+  D:\Keil MDK\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  D:\Keil MDK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Source file:   CMSIS\Core\Template\ARMv8-M\main_s.c
+      Include file:  CMSIS\Core\Include\tz_context.h
+      Source file:   CMSIS\Core\Template\ARMv8-M\tz_context.c
+</pre>
+</body>
+</html>

@@ -58,6 +58,6 @@ void NRF24L01_Init(void);
 void Reveive(uint8_t *Buf);
 uint8_t Send(uint8_t *Buf) ;
 
-
+GPIO_PinState R_IRQ(void);
 
 #endif
